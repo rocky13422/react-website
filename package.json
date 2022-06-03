@@ -1,5 +1,6 @@
 {
   "name": "website-react",
+  "homepage": "https://rocky13422.github.io/react-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,14 +8,18 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.0.1",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-bootstrap-v5": "^1.4.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.52.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -8,7 +8,8 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Service from './Pages/Services';
 import Contact from './Pages/Contact';
-import Error from './Pages/Error'
+import Error from './Pages/Error';
+import Weather from './Pages/Weather'
 
 const Navbar = () => {
     return (
@@ -33,6 +34,9 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to='/contact'>Contact</NavLink>
                                 </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to='/weather'>Weather</NavLink>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -45,6 +49,7 @@ const Navbar = () => {
                 <Route exact path='/about' element={<About />}></Route>
                 <Route exact path='/service' element={<Service />}></Route>
                 <Route exact path='/contact' element={<Contact />}></Route>
+                <Route exact path='/weather' element={<Weather />}></Route>
                 <Route path='*' element={<Error />}></Route>
             </Routes>
         </>
