@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rocky13422/React-Project/static/css/main.934270f7.css",
-    "main.js": "/rocky13422/React-Project/static/js/main.d47764ed.js",
-    "static/media/programming.svg": "/rocky13422/React-Project/static/media/programming.1f3ca782e7ec9061110914f65e2a3eb9.svg",
-    "static/media/creativity.svg": "/rocky13422/React-Project/static/media/creativity.149138a1fb973d309bd223df9b916453.svg",
-    "index.html": "/rocky13422/React-Project/index.html",
-    "main.934270f7.css.map": "/rocky13422/React-Project/static/css/main.934270f7.css.map",
-    "main.d47764ed.js.map": "/rocky13422/React-Project/static/js/main.d47764ed.js.map"
+    "main.css": "/rocky13422/react-website/static/css/main.934270f7.css",
+    "main.js": "/rocky13422/react-website/static/js/main.3a16bf4a.js",
+    "static/media/programming.svg": "/rocky13422/react-website/static/media/programming.1f3ca782e7ec9061110914f65e2a3eb9.svg",
+    "static/media/creativity.svg": "/rocky13422/react-website/static/media/creativity.149138a1fb973d309bd223df9b916453.svg",
+    "index.html": "/rocky13422/react-website/index.html",
+    "main.934270f7.css.map": "/rocky13422/react-website/static/css/main.934270f7.css.map",
+    "main.3a16bf4a.js.map": "/rocky13422/react-website/static/js/main.3a16bf4a.js.map"
   },
   "entrypoints": [
     "static/css/main.934270f7.css",
-    "static/js/main.d47764ed.js"
+    "static/js/main.3a16bf4a.js"
   ]
 }
